@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/axios/dist/axios.js"></script>
     <script src="./script.js"></script>
     <title>Doc</title>
 </head>
 <body>
-    
+  <div class="Main">
+<div class="loginbox">
+<p style="width: 100%; text-align: center; height: 15px; margin: 0;">Login</p>
+<div>
+<label>Email</label>
+<input type="text" placeholder="Email" id="EIN">
+</div>
+
+<div>
+<label>Password</label>
+<input type="password" placeholder="Password" id="PIN">
+</div>
+
+<span>
+<button onclick="login()">Login</button>
+</span>
+</div>
+  </div>  
 </body>
 </html>
